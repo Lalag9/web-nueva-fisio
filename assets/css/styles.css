@@ -1103,7 +1103,7 @@ ul, ol {
 
 .price-card__header {
   background-color: var(--color-primary);
-  padding: 20px 16px;
+  padding: 10px 16px;
 }
 
 .price-card__title {
