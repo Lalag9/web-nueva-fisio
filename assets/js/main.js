@@ -186,7 +186,7 @@ function initLightbox() {
   modal.innerHTML = `
     <button type="button" class="lightbox__close" aria-label="Cerrar">&times;</button>
     <button type="button" class="lightbox__prev" aria-label="Imagen anterior">&#8249;</button>
-    <img class="lightbox__img" src="" alt="">
+    <img class="lightbox__img" alt="">
     <button type="button" class="lightbox__next" aria-label="Imagen siguiente">&#8250;</button>
   `;
   document.body.appendChild(modal);

@@ -526,7 +526,7 @@ ul, ol {
 
 .hero__content {
   padding-inline: 20px;
-  animation: fadeInSlow 0.9s ease both;
+  animation: fadeInSlow 0.45s ease-out both;
 }
 
 .hero__kicker {
@@ -913,6 +913,7 @@ ul, ol {
   display: flex;
   align-items: center;
   min-width: 0;
+  padding-inline: 44px;
 }
 
 .reviews-viewport {
@@ -1055,11 +1056,11 @@ ul, ol {
 }
 
 .reviews-nav--prev {
-  left: -12px;
+  left: 0;
 }
 
 .reviews-nav--next {
-  right: -12px;
+  right: 0;
 }
 
 .reviews-nav svg {
@@ -1895,8 +1896,12 @@ ul, ol {
     flex: 0 0 100%;
   }
 
-  .reviews-nav--prev { left: 4px; }
-  .reviews-nav--next { right: 4px; }
+  .reviews-carousel {
+    padding-inline: 38px;
+  }
+
+  .reviews-nav--prev { left: 0; }
+  .reviews-nav--next { right: 0; }
 
   .page-hero-bar__title {
     font-size: 36px;
